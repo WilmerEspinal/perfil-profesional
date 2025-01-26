@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Perfil Profesional</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .contenedor {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      .perfil-header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .foto-perfil {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+
+      .nombre {
+        color: #2c3e50;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .titulo {
+        color: #7f8c8d;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+      }
+
+      .seccion {
+        margin-bottom: 30px;
+      }
+
+      .seccion-titulo {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      .habilidades {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .habilidad {
+        background-color: #3498db;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.9em;
+      }
+
+      .contacto {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="perfil-header">
+        <img
+          src="https://wfolio.pages.dev/assets/perfil-B4tP0s3C.jpg"
+          alt="Foto de perfil"
+          class="foto-perfil"
+        />
+        <h1 class="nombre">Wilmer Espinal Villanueva</h1>
+        <p class="titulo">Desarrollador Web Full Stack</p>
+      </div>
+
+      <div class="seccion">
+        <h2 class="seccion-titulo">Sobre Mí</h2>
+        <p>
+          Soy Wilmer, tengo 21 años y estudio la carrera técnica de Desarrollo
+          de Sistemas de Información en el Instituto Continental. Me apasiona la
+          tecnología y cómo esta puede transformar la vida de las personas.
+          Estoy en constante aprendizaje, explorando nuevas herramientas y
+          tecnologías para mejorar mis habilidades en el desarrollo de software.
+        </p>
+      </div>
+
+      <div class="seccion">
+        <h2 class="seccion-titulo">Habilidades</h2>
+        <div class="habilidades">
+          <span class="habilidad">HTML5</span>
+          <span class="habilidad">CSS3</span>
+          <span class="habilidad">JavaScript</span>
+          <span class="habilidad">React</span>
+          <span class="habilidad">PHP</span>
+          <span class="habilidad">Laravel</span>
+          <span class="habilidad">MySQL</span>
+          <span class="habilidad">Git</span>
+          <span class="habilidad">GitHub</span>
+        </div>
+      </div>
+
+      <div class="seccion">
+        <h2 class="seccion-titulo">Experiencia academica</h2>
+        <h3>Desarrollador Junior - Colegio crayons</h3>
+        <p>2024 - Presente</p>
+        <ul>
+          <li>
+            Implementar un modulo de registro de estudiante para pagos de cuotas
+          </li>
+          <li>Implementar un pasarela de pago</li>
+          <li>Implementar un modulo de registro de asistencias</li>
+        </ul>
+      </div>
+
+      <div class="seccion contacto">
+        <h2 class="seccion-titulo">Contacto</h2>
+        <p>📧 wespinalvi@gmail.com</p>
+        <p>📱 +51 914791640</p>
+        <p>📍 Perú</p>
+      </div>
+    </div>
+  </body>
+</html>
+
